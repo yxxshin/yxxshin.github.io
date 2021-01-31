@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>http://yxxshin.github.io/2020/11/21/2020-11-21-Server-6th/</loc>
+        <lastmod>2021-01-31T21:21:06.248Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yxxshin.github.io/2020/10/10/2020-10-10-Server-1st/</loc>
         <lastmod>2021-01-31T21:07:19.501Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -43,14 +51,6 @@
     <url>
         <loc>http://yxxshin.github.io/2020/11/14/2020-11-14-Server-5th/</loc>
         <lastmod>2021-01-31T20:56:32.526Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/2020/11/21/2020-11-21-Server-6th/</loc>
-        <lastmod>2021-01-31T20:52:20.115Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
