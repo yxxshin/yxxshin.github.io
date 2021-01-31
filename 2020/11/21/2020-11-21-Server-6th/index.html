@@ -1,11 +1,8 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>[ON SOPT] Server 6th Seminar - YSS&#039;s Blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="YSS&#039;s Blog"><meta name="msapplication-TileImage" content="/img/favi.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="YSS&#039;s Blog"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="JWT, REST API, CORS"><meta property="og:type" content="blog"><meta property="og:title" content="[ON SOPT] Server 6th Seminar"><meta property="og:url" content="http://yxxshin.github.io/2020/11/21/2020-11-21-Server-6th/"><meta property="og:site_name" content="YSS&#039;s Blog"><meta property="og:description" content="JWT, REST API, CORS"><meta property="og:locale" content="en_US"><meta property="og:image" content="https://imgur.com/D3VusVA.png"><meta property="article:published_time" content="2020-11-21T11:00:00.000Z"><meta property="article:modified_time" content="2021-01-13T22:20:09.517Z"><meta property="article:author" content="Yeonsang Shin"><meta property="article:tag" content="server"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://imgur.com/D3VusVA.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://yxxshin.github.io/2020/11/21/2020-11-21-Server-6th/"},"headline":"YSS's Blog","image":["https://imgur.com/ASR8bUv.png"],"datePublished":"2020-11-21T11:00:00.000Z","dateModified":"2021-01-13T22:20:09.517Z","author":{"@type":"Person","name":"Yeonsang Shin"},"description":"JWT, REST API, CORS"}</script><link rel="canonical" href="http://yxxshin.github.io/2020/11/21/2020-11-21-Server-6th/"><link rel="icon" href="/img/favi.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/xcode.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.3.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">YSS&#039;s Blog</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Instagram" href="https://www.instagram.com/yxxshin0209/"><i class="fab fa-instagram"></i></a><a class="navbar-item" target="_blank" rel="noopener" title="GitHub" href="https://github.com/yxxshin"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><div class="card-image"><span class="image is-7by3"><img class="fill" src="https://imgur.com/ASR8bUv.png" alt="[ON SOPT] Server 6th Seminar"></span></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2020-11-21T11:00:00.000Z" title="11/21/2020, 8:00:00 PM">2020-11-21</time></span><span class="level-item"><a class="link-muted" href="/categories/Seminar/">Seminar</a></span><span class="level-item">14 minutes read (About 2062 words)</span></div></div><h1 class="title is-3 is-size-4-mobile">[ON SOPT] Server 6th Seminar</h1><div class="content"><h3 id="1-JWT"><a href="#1-JWT" class="headerlink" title="1. JWT"></a>1. JWT</h3><blockquote>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>[ON SOPT] Server 6th Seminar - YSS&#039;s Blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="YSS&#039;s Blog"><meta name="msapplication-TileImage" content="/img/favi.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="YSS&#039;s Blog"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="JWT, REST API, CORS"><meta property="og:type" content="blog"><meta property="og:title" content="[ON SOPT] Server 6th Seminar"><meta property="og:url" content="http://yxxshin.github.io/2020/11/21/2020-11-21-Server-6th/"><meta property="og:site_name" content="YSS&#039;s Blog"><meta property="og:description" content="JWT, REST API, CORS"><meta property="og:locale" content="en_US"><meta property="og:image" content="https://imgur.com/D3VusVA.png"><meta property="article:published_time" content="2020-11-21T11:00:00.000Z"><meta property="article:modified_time" content="2021-01-13T22:20:09.517Z"><meta property="article:author" content="Yeonsang Shin"><meta property="article:tag" content="server"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://imgur.com/D3VusVA.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://yxxshin.github.io/2020/11/21/2020-11-21-Server-6th/"},"headline":"YSS's Blog","image":["https://imgur.com/ASR8bUv.png"],"datePublished":"2020-11-21T11:00:00.000Z","dateModified":"2021-01-13T22:20:09.517Z","author":{"@type":"Person","name":"Yeonsang Shin"},"description":"JWT, REST API, CORS"}</script><link rel="canonical" href="http://yxxshin.github.io/2020/11/21/2020-11-21-Server-6th/"><link rel="icon" href="/img/favi.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/xcode.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.3.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">YSS&#039;s Blog</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Instagram" href="https://www.instagram.com/yxxshin0209/"><i class="fab fa-instagram"></i></a><a class="navbar-item" target="_blank" rel="noopener" title="GitHub" href="https://github.com/yxxshin"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><div class="card-image"><span class="image is-7by3"><img class="fill" src="https://imgur.com/ASR8bUv.png" alt="[ON SOPT] Server 6th Seminar"></span></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2020-11-21T11:00:00.000Z" title="11/21/2020, 8:00:00 PM">2020-11-21</time></span><span class="level-item"><a class="link-muted" href="/categories/Seminar/">Seminar</a></span><span class="level-item">14 minutes read (About 2062 words)</span></div></div><h1 class="title is-3 is-size-4-mobile">[ON SOPT] Server 6th Seminar</h1><div class="content"><h3 id="1-JWT"><a href="#1-JWT" class="headerlink" title="1. JWT"></a>1. JWT</h3><blockquote>
 <h3 id="인증-Authentication"><a href="#인증-Authentication" class="headerlink" title="인증(Authentication)"></a><u>인증(Authentication)</u></h3></blockquote>
-<p>API 요청에 대해 사용 가능한 사용자인지 확인하는 절차!<br>즉, 클라이언트가 주장하는 사용자와 같은 사용자인지를 확인하는 절차이다.</p>
-<a id="more"></a>
-
-<br>
-
+<p>API 요청에 대해 사용 가능한 사용자인지 확인하는 절차!<br>즉, 클라이언트가 주장하는 사용자와 같은 사용자인지를 확인하는 절차이다.<br><a id="more"></a></p>
+<p><br></p>
 <blockquote>
 <h3 id="HTTP의-특징"><a href="#HTTP의-특징" class="headerlink" title="HTTP의 특징"></a><u>HTTP의 특징</u></h3></blockquote>
 <p>HTTP는 다음의 특징들을 가진다.</p>
@@ -19,8 +16,7 @@
 <li><strong>세션</strong><br>일정 시간 동안 같은 사용자로부터 들어오는 모든 요구를 하나의 상태로 보고,<br>그 상태를 일정하게 유지시키는 기술<br>문제점: 서버의 세션 저장소를 사용하므로 추가 저장 공간 필요하고, 세션 저장소에 장애가 발생하면 인증에 문제가 생김.</li>
 <li><span style="color:blue"> <strong>JWT(Json Web Token)</strong> </span><br>클라이언트의 세션 상태를 저장하지 않고, <u>필요한 정보를 토큰 body에 저장해서 클라이언트가 이를 증명서처럼 사용</u></li>
 </ul>
-<br>
-
+<p><br></p>
 <blockquote>
 <h3 id="JWT란"><a href="#JWT란" class="headerlink" title="JWT란?"></a><u>JWT란?</u></h3></blockquote>
 <p>JWT는 <strong><code>Header.Payload.Verify_Signature</code></strong> 으로 구성된다.  </p>
@@ -35,8 +31,7 @@
 <li><strong>보안성</strong>: 정보가 담긴 데이터 (JSON객체)를 암호화함</li>
 <li><strong>확장성</strong>: 인증 저장소가(sessionDB) 필요하지 않음</li>
 </ul>
-<br>
-
+<p><br></p>
 <blockquote>
 <h3 id="JWT의-작동법"><a href="#JWT의-작동법" class="headerlink" title="JWT의 작동법"></a><u>JWT의 작동법</u></h3></blockquote>
 <p>다음과 같은 방법으로 작동한다.  </p>
@@ -47,8 +42,7 @@
 <li>클라이언트에게 토큰 발급</li>
 <li>발급받은 토큰을 이용하여 서버에 요청 할 때마다 Request Header에 포함하여 자원을 access할 수 있는 유저인지 식별 후 자원 제공</li>
 </ol>
-<p>예시: 토큰 발급</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// include jwt</span></span><br><span class="line"><span class="keyword">const</span> jwt = <span class="built_in">require</span>(<span class="string">&#x27;../modules/jwt&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 로그인 로직</span></span><br><span class="line"><span class="keyword">const</span> user = <span class="keyword">await</span> userService.signin(email, password, salt);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 토큰 발급</span></span><br><span class="line"><span class="keyword">const</span> &#123; accessToken, refreshToken &#125; = <span class="keyword">await</span> jwt.sign(user);</span><br></pre></td></tr></table></figure>
+<p>예시: 토큰 발급<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// include jwt</span></span><br><span class="line"><span class="keyword">const</span> jwt = <span class="built_in">require</span>(<span class="string">&#x27;../modules/jwt&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 로그인 로직</span></span><br><span class="line"><span class="keyword">const</span> user = <span class="keyword">await</span> userService.signin(email, password, salt);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 토큰 발급</span></span><br><span class="line"><span class="keyword">const</span> &#123; accessToken, refreshToken &#125; = <span class="keyword">await</span> jwt.sign(user);</span><br></pre></td></tr></table></figure></p>
 <ul>
 <li><strong>RefreshToken</strong><br>AccessToken이 만료되었을 때 새로 발급해주는 열쇠로, AccessToken과 함께 클라이언트에게 발급한다.<br>RefreshToken은 주로 DB에 저장하고, AccessToken보다 더 안전한 곳에 보관해야 함.<br>AccessToken은 만료 기간을 짧게 줄 수록 안전함 (1시간)<br>RefreshToken은 이보다는 길게 설정 (2주)</li>
 </ul>
@@ -78,15 +72,13 @@
 <li>payload 인코딩: payload를 탈취하여 디코딩하면 데이터를 볼 수 있으므로(BASE64) payload에 민감한 정보는 넣지 말아야 함</li>
 <li>expired: 토큰을 탈취 당하면 제어가 불가능해짐(임의 삭제 불가능). 따라서 accessToken의 만료 시간을 짧게 설정해야 함. (근데, 너무 짧으면 만료될 때마다 HTTP 요청 횟수가 많아짐)</li>
 </ul>
-<br>
-
+<p><br></p>
 <h3 id="2-REST-API"><a href="#2-REST-API" class="headerlink" title="2. REST API"></a>2. REST API</h3><blockquote>
 <h3 id="URI와-URL"><a href="#URI와-URL" class="headerlink" title="URI와 URL"></a><u>URI와 URL</u></h3></blockquote>
 <p><strong>URI(Uniform Resource Identifier, 통합 자원 식별자)</strong><br>인터넷에 있는 자원을 나타내는 유일한 주소</p>
 <p><strong>URL(Uniform Resource Locator, 유일 자원 시기)</strong><br>네트워크 상에서 자원이 어디있는지 알려주기 위한 규약</p>
 <p>→ URI는 URL을 포함한 개념!<br>ex) <code>https://site.com/post?id=123</code> : URI 이지만, URL은 아니다</p>
-<br>
-
+<p><br></p>
 <blockquote>
 <h3 id="REST-API란"><a href="#REST-API란" class="headerlink" title="REST API란?"></a><u>REST API란?</u></h3></blockquote>
 <p>REST 아키텍처의 제약 조건을 준수하는 애플리케이션 프로그래밍 인터페이스<br>(<strong>RE</strong>presentatinal <strong>S</strong>tate <strong>T</strong>ransfer API)</p>
@@ -105,14 +97,12 @@
 <li><strong>Client-Server 구조</strong><br>REST 서버 - API 제공 / 클라 - 사용자 인증, 컨텍스트 직접 관리<br>클라와 서버에서 개발해야할 내용이 명확해지고, 서로 간 의존성 줄어듦</li>
 <li><strong>계층형 구조</strong><br>다중 계층으로 구성될 수 있으며 보안, 로드 밸런싱, 암호화 게층을 추가해 구조상의 유연성을 둘 수 있고 PROXY, 게이트웨이 같은 네트워크 기반의 중간 매체를 사용할 수 있음.</li>
 </ul>
-<br>
-
+<p><br></p>
 <blockquote>
 <h3 id="REST-API-디자인-가이드-핵심"><a href="#REST-API-디자인-가이드-핵심" class="headerlink" title="REST API 디자인 가이드(핵심)"></a><u>REST API 디자인 가이드</u>(핵심)</h3></blockquote>
 <p><strong>1. URI는 정보의 자원을 표현해야 함</strong><br>리소스 명은 동사보다는 명사를 사용한다<br>ex) <code>GET /members</code></p>
 <p><strong>2. 자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE)로 표현함</strong><br>ex) <code>POST /members/1</code>, <code>DELETE /members/1</code></p>
-<br>
-
+<p><br></p>
 <blockquote>
 <h3 id="REST-API-주의사항"><a href="#REST-API-주의사항" class="headerlink" title="REST API 주의사항"></a><u>REST API 주의사항</u></h3></blockquote>
 <ol>
@@ -133,8 +123,7 @@
 <li><p>자원을 표현하는 Collection과 Document<br>Document은 한 객체를 의미하며, Collection은 객체들의 집합<br>도큐먼트를 단수, 컬렉션을 복수로 표현하면 이해하기 좋다!</p>
 </li>
 </ol>
-<br>
-
+<p><br></p>
 <h3 id="3-API-명세서"><a href="#3-API-명세서" class="headerlink" title="3. API 명세서"></a>3. API 명세서</h3><p><strong>API (Application Programming Interface) 란?</strong><br>서버 애플리케이션의 기능을 사용하기 위한 방법/수단!<br>즉, 클라가 서버의 API를 사용하기 위해 참고하는 사용설명서</p>
 <p><strong>구성 요소</strong>  </p>
 <ul>
@@ -196,6 +185,22 @@
                 }
                 $('.justified-gallery').justifiedGallery();
             }
-        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+        });</script><!--!--><!--!--><script type="text/x-mathjax-config">MathJax.Hub.Config({
+            'HTML-CSS': {
+                matchFontHeight: false
+            },
+            SVG: {
+                matchFontHeight: false
+            },
+            CommonHTML: {
+                matchFontHeight: false
+            },
+            tex2jax: {
+                inlineMath: [
+                    ['$','$'],
+                    ['\\(','\\)']
+                ]
+            }
+        });</script><script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
             loadInsight({"contentUrl":"/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
         });</script></body></html>

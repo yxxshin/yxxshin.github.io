@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>[ON SOPT] Server 3rd Seminar - YSS&#039;s Blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="YSS&#039;s Blog"><meta name="msapplication-TileImage" content="/img/favi.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="YSS&#039;s Blog"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="HTTP, Express, EC2"><meta property="og:type" content="blog"><meta property="og:title" content="[ON SOPT] Server 3rd Seminar"><meta property="og:url" content="http://yxxshin.github.io/2020/10/31/2020-10-31-Server-3rd/"><meta property="og:site_name" content="YSS&#039;s Blog"><meta property="og:description" content="HTTP, Express, EC2"><meta property="og:locale" content="en_US"><meta property="og:image" content="https://imgur.com/D3VusVA.png"><meta property="article:published_time" content="2020-10-31T11:00:00.000Z"><meta property="article:modified_time" content="2021-01-13T22:20:26.662Z"><meta property="article:author" content="Yeonsang Shin"><meta property="article:tag" content="server"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://imgur.com/D3VusVA.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://yxxshin.github.io/2020/10/31/2020-10-31-Server-3rd/"},"headline":"YSS's Blog","image":["https://imgur.com/fBmE1Ao.png"],"datePublished":"2020-10-31T11:00:00.000Z","dateModified":"2021-01-13T22:20:26.662Z","author":{"@type":"Person","name":"Yeonsang Shin"},"description":"HTTP, Express, EC2"}</script><link rel="canonical" href="http://yxxshin.github.io/2020/10/31/2020-10-31-Server-3rd/"><link rel="icon" href="/img/favi.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/xcode.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.3.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">YSS&#039;s Blog</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Instagram" href="https://www.instagram.com/yxxshin0209/"><i class="fab fa-instagram"></i></a><a class="navbar-item" target="_blank" rel="noopener" title="GitHub" href="https://github.com/yxxshin"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><div class="card-image"><span class="image is-7by3"><img class="fill" src="https://imgur.com/fBmE1Ao.png" alt="[ON SOPT] Server 3rd Seminar"></span></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2020-10-31T11:00:00.000Z" title="10/31/2020, 8:00:00 PM">2020-10-31</time></span><span class="level-item"><a class="link-muted" href="/categories/Seminar/">Seminar</a></span><span class="level-item">11 minutes read (About 1653 words)</span></div></div><h1 class="title is-3 is-size-4-mobile">[ON SOPT] Server 3rd Seminar</h1><div class="content"><h3 id="0-3주차-세미나-사전준비"><a href="#0-3주차-세미나-사전준비" class="headerlink" title="0. 3주차 세미나 사전준비"></a>0. 3주차 세미나 사전준비</h3><ol>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>[ON SOPT] Server 3rd Seminar - YSS&#039;s Blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="YSS&#039;s Blog"><meta name="msapplication-TileImage" content="/img/favi.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="YSS&#039;s Blog"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="HTTP, Express, EC2"><meta property="og:type" content="blog"><meta property="og:title" content="[ON SOPT] Server 3rd Seminar"><meta property="og:url" content="http://yxxshin.github.io/2020/10/31/2020-10-31-Server-3rd/"><meta property="og:site_name" content="YSS&#039;s Blog"><meta property="og:description" content="HTTP, Express, EC2"><meta property="og:locale" content="en_US"><meta property="og:image" content="https://imgur.com/D3VusVA.png"><meta property="article:published_time" content="2020-10-31T11:00:00.000Z"><meta property="article:modified_time" content="2021-01-13T22:20:26.662Z"><meta property="article:author" content="Yeonsang Shin"><meta property="article:tag" content="server"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://imgur.com/D3VusVA.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://yxxshin.github.io/2020/10/31/2020-10-31-Server-3rd/"},"headline":"YSS's Blog","image":["https://imgur.com/fBmE1Ao.png"],"datePublished":"2020-10-31T11:00:00.000Z","dateModified":"2021-01-13T22:20:26.662Z","author":{"@type":"Person","name":"Yeonsang Shin"},"description":"HTTP, Express, EC2"}</script><link rel="canonical" href="http://yxxshin.github.io/2020/10/31/2020-10-31-Server-3rd/"><link rel="icon" href="/img/favi.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/xcode.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.3.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">YSS&#039;s Blog</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Instagram" href="https://www.instagram.com/yxxshin0209/"><i class="fab fa-instagram"></i></a><a class="navbar-item" target="_blank" rel="noopener" title="GitHub" href="https://github.com/yxxshin"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><div class="card-image"><span class="image is-7by3"><img class="fill" src="https://imgur.com/fBmE1Ao.png" alt="[ON SOPT] Server 3rd Seminar"></span></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2020-10-31T11:00:00.000Z" title="10/31/2020, 8:00:00 PM">2020-10-31</time></span><span class="level-item"><a class="link-muted" href="/categories/Seminar/">Seminar</a></span><span class="level-item">11 minutes read (About 1653 words)</span></div></div><h1 class="title is-3 is-size-4-mobile">[ON SOPT] Server 3rd Seminar</h1><div class="content"><h3 id="0-3주차-세미나-사전준비"><a href="#0-3주차-세미나-사전준비" class="headerlink" title="0. 3주차 세미나 사전준비"></a>0. 3주차 세미나 사전준비</h3><ol>
 <li>Postman 설치</li>
 <li>AWS 회원가입</li>
 </ol>
@@ -14,8 +14,7 @@
 </ul>
 <p>정보를 전달하는 방법<br><strong>1. URL</strong>: param 혹은 query 를 통해 연결<br><strong>2. Header</strong>: 부가적인 정보 (토큰, 쿠키) 전송<br><strong>3. Body</strong>: JSON 등의 형식으로 이루어진 데이터</p>
 <p>cf) Request에서 param, query의 차이점<br><strong>param</strong>: 주소의 변수를 담는다. (ex: <code>localhost:3000/news/13</code>)<br><strong>query</strong>: 주소 바깥의 ‘?’ 이후의 변수를 담는다. (ex: <code>localhost:3000/news?category=society</code>)</p>
-<br>
-
+<p><br></p>
 <blockquote>
 <h3 id="HTTP-Method"><a href="#HTTP-Method" class="headerlink" title="HTTP Method"></a><u>HTTP Method</u></h3></blockquote>
 <p><img src="https://imgur.com/Aen51to.jpg" alt="HTTP"></p>
@@ -26,11 +25,9 @@
 <h3 id="Express-입문"><a href="#Express-입문" class="headerlink" title="Express 입문"></a><u>Express 입문</u></h3></blockquote>
 <p><strong>Express</strong> : 웹/앱을 위한 <u>NodeJS 프레임워크</u>로, npm을 통해 수많은 패키지에 접근 가능</p>
 <ul>
-<li><p>프로젝트 만들기: VSCode 실행하고,<code>npm install -g express express-generator</code><br>  이 때, <code>-g</code>는 global(전역 설치) 옵션으로 컴퓨터 당 한 번만 해주면 되는듯 하다<br>  이후 최상단 폴더에서 <code>express &#123;프로젝트 이름&#125;</code> 해주면 된다.</p>
-  <br>
+<li><p>프로젝트 만들기: VSCode 실행하고,<code>npm install -g express express-generator</code><br>  이 때, <code>-g</code>는 global(전역 설치) 옵션으로 컴퓨터 당 한 번만 해주면 되는듯 하다<br>  이후 최상단 폴더에서 <code>express &#123;프로젝트 이름&#125;</code> 해주면 된다.<br>  <br></p>
 </li>
-<li><p>프로젝트 시작: 프로젝트로 이동한 후 <code>npm start</code><br>  첫 번째 실행이라면 이전에 <code>npm install</code>을 해주어야 한다.<br>  팁: <strong>Nodemon</strong>은 파일이 수정되면 자동으로 서버를 restart해 주어 편리하다!!<br>  <code>npm install -g nodemon</code> 해서 설치하고, <code>nodemon start</code>로 서버 시작해준다.</p>
-  <br>
+<li><p>프로젝트 시작: 프로젝트로 이동한 후 <code>npm start</code><br>  첫 번째 실행이라면 이전에 <code>npm install</code>을 해주어야 한다.<br>  팁: <strong>Nodemon</strong>은 파일이 수정되면 자동으로 서버를 restart해 주어 편리하다!!<br>  <code>npm install -g nodemon</code> 해서 설치하고, <code>nodemon start</code>로 서버 시작해준다.<br>  <br></p>
 </li>
 <li><p>프로젝트 구조:</p>
 <ul>
@@ -44,13 +41,11 @@
 </ul>
 </li>
 </ul>
-<br>
-
+<p><br></p>
 <blockquote>
 <h3 id="MiddleWare-미들웨어"><a href="#MiddleWare-미들웨어" class="headerlink" title="MiddleWare, 미들웨어"></a><u>MiddleWare, 미들웨어</u></h3></blockquote>
 <p><strong>미들웨어</strong> : 서버가 요청-응답과정을 하는 동안 중간의 동작을 해주는 함수<br>request가 올 때마다 미들웨어를 거쳐 response를 보낸다.</p>
-<br>
-
+<p><br></p>
 <blockquote>
 <h3 id="Routing"><a href="#Routing" class="headerlink" title="Routing"></a><u>Routing</u></h3></blockquote>
 <p><strong>라우팅</strong> : URI 및 특정 HTTP 요청 메소드인 특정 엔드포인트에 대한 클라 요청에 앱이 응답하는 방법을 결정하는 것.<br>예) URL에 <code>news.daum.net/society</code>, <code>news.daum.net/politics</code>와 같이 목적에 따라 구분하는 것</p>
@@ -79,8 +74,7 @@
 <h3 id="3-AWS-EC2"><a href="#3-AWS-EC2" class="headerlink" title="3. AWS EC2"></a>3. AWS EC2</h3><blockquote>
 <h3 id="EC2-Elastic-Cloud-Compute"><a href="#EC2-Elastic-Cloud-Compute" class="headerlink" title=" EC2(Elastic Cloud Compute) "></a><u> EC2(Elastic Cloud Compute) </u></h3></blockquote>
 <p>안전하고 크기 조정이 가능한 컴퓨팅을 클라우드에서 제공하는 웹 서비스</p>
-<br>
-
+<p><br></p>
 <blockquote>
 <h3 id="EC2-사용-순서"><a href="#EC2-사용-순서" class="headerlink" title="EC2 사용 순서:"></a><u>EC2 사용 순서:</u></h3></blockquote>
 <ol>
@@ -89,18 +83,15 @@
 <li>SSH 접속 (ssh를 이용하여 빌린 컴퓨터에 접속)</li>
 <li>서버 환경 구축 (빌린 컴퓨터에 node 깔아서 돌리기)</li>
 </ol>
-<br>
-
+<p><br></p>
 <blockquote>
 <h3 id="Key-Pair란"><a href="#Key-Pair란" class="headerlink" title=" Key Pair란?"></a><u> Key Pair란?</u></h3></blockquote>
 <p>EC2 서버에 접근하려면 개인키와 공개키로 구성된 키페어가 필요한데, 공개키는 AWS에 업로드되어 가상 서버에서 보관하고 개인키는 자신이 소유한다.<br>EC2에 접속할 때마다 키페어를 이용하여 접근한다!<br>보안이 취약한 곳에 올리면 절대 안된다!!  </p>
-<br>
-
+<p><br></p>
 <blockquote>
 <h3 id="EIP-Elastic-IP-란"><a href="#EIP-Elastic-IP-란" class="headerlink" title=" EIP(Elastic IP)란?"></a><u> EIP(Elastic IP)란?</u></h3></blockquote>
 <p>EC2가 재시작될 때마다 Public IP가 변경되기 때문에, 이를 고정된 IP로 연결해주는 것<br>EIP가 혼자 돌아가면 과금되기 때문에, 항상 연결해 주어야 한다!!<br>즉, EC2 중단하기 전에 반드시 EIP를 release 해주어야 함. (실제로 안했더니 1주일에 0.02$ 정도 나갔다) </p>
-<br>
-
+<p><br></p>
 <blockquote>
 <h3 id="EC2-접속-방법"><a href="#EC2-접속-방법" class="headerlink" title="EC2 접속 방법"></a><u>EC2 접속 방법</u></h3></blockquote>
 <ol>
@@ -108,8 +99,7 @@
 <li><code>chmod 400 &#123;pemKeyName&#125;.pem</code></li>
 <li><code>sudo ssh -i &#39;&#123;pemKeyName&#125;.pem&#39; ubuntu@&#123;EIP&#125;</code></li>
 </ol>
-<br>
-
+<p><br></p>
 <blockquote>
 <h3 id="PM2-NodeJS-Process-Manager"><a href="#PM2-NodeJS-Process-Manager" class="headerlink" title="PM2 (NodeJS Process Manager)"></a><u>PM2 (NodeJS Process Manager)</u></h3></blockquote>
 <p>프로세스를 모니터링하는 프로그램<br>( 노드는 시간 지나면 지 혼자 죽을 수도 있어서, 모니터링이 필요 )<br>설치: <code>sudo npm install -g pm2</code><br>실행: 프로젝트 최상위 폴더에서 <code>pm2 start ./bin/www</code><br>다양한 명령어들:</p>
@@ -172,6 +162,22 @@
                 }
                 $('.justified-gallery').justifiedGallery();
             }
-        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+        });</script><!--!--><!--!--><script type="text/x-mathjax-config">MathJax.Hub.Config({
+            'HTML-CSS': {
+                matchFontHeight: false
+            },
+            SVG: {
+                matchFontHeight: false
+            },
+            CommonHTML: {
+                matchFontHeight: false
+            },
+            tex2jax: {
+                inlineMath: [
+                    ['$','$'],
+                    ['\\(','\\)']
+                ]
+            }
+        });</script><script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
             loadInsight({"contentUrl":"/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
         });</script></body></html>
