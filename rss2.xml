@@ -9,7 +9,7 @@
     <atom:link href="http://yxxshin.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>신연상의 블로그</description>
-    <pubDate>Sun, 31 Jan 2021 22:58:03 GMT</pubDate>
+    <pubDate>Wed, 03 Feb 2021 09:44:20 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -18,12 +18,11 @@
       <guid>http://yxxshin.github.io/2021/02/01/2021-02-01-APSS-Start/</guid>
       <pubDate>Sun, 31 Jan 2021 22:00:00 GMT</pubDate>
       
-      <description>&lt;p&gt;당분간 Baekjoon 복습을 하면서, &lt;strong&gt;“알고리즘 문제해결전략”&lt;/strong&gt; 이라는 책을 공부할 예정이다!  &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/n6BRnPh.png&quot; alt=&quot;알고리즘 문제해결전략 책&quot;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;당분간 Baekjoon 복습을 하면서, &lt;strong&gt;“알고리즘 문제해결전략”&lt;/strong&gt; 이라는 책을 공부할 예정이다!  &lt;/p&gt;</description>
       
       
       
-      <content:encoded><![CDATA[<p>당분간 Baekjoon 복습을 하면서, <strong>“알고리즘 문제해결전략”</strong> 이라는 책을 공부할 예정이다!  </p><p><img src="https://imgur.com/n6BRnPh.png" alt="알고리즘 문제해결전략 책"></p><a id="more"></a><p><strong>참고</strong>: <code>APSS</code>는 본 책을 의미하는 Algorithmic Problem Solving Strategies 의 약자이다.</p><p>한 단원씩 쪼개어 블로그에 포스팅 할 예정이다.<br>단원이 길어지면 더 쪼개겠지만.. 암튼 화이팅해라<br>(이번에 참가한 블로그 포스팅 스터디인 <code>돈포켓포 8기</code> 에 큰 활약을 할 예정 ㅎㅎ )</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>당분간 Baekjoon 복습을 하면서, <strong>“알고리즘 문제해결전략”</strong> 이라는 책을 공부할 예정이다!  </p><a id="more"></a><p><img src="https://imgur.com/n6BRnPh.png" alt="알고리즘 문제해결전략 책"></p><p><strong>참고</strong>: <code>APSS</code>는 본 책을 의미하는 Algorithmic Problem Solving Strategies 의 약자이다.</p><p>한 단원씩 쪼개어 블로그에 포스팅 할 예정이다.<br>단원이 길어지면 더 쪼개겠지만.. 암튼 화이팅해라<br>(이번에 참가한 블로그 포스팅 스터디인 <code>돈포켓포 8기</code> 에 큰 활약을 할 예정 ㅎㅎ )</p>]]></content:encoded>
       
       
       <category domain="http://yxxshin.github.io/categories/Algorithm/">Algorithm</category>
