@@ -3,6 +3,13 @@
 
 
     <url>
+        <loc>http://yxxshin.github.io/tags/SEO/</loc>
+        <lastmod>2021-02-04T10:18:04.299Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://yxxshin.github.io/tags/asp/</loc>
         <lastmod>2021-02-03T16:27:53.922Z</lastmod>
         <changefreq>weekly</changefreq>

@@ -9,27 +9,29 @@
     <atom:link href="http://yxxshin.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>신연상의 블로그</description>
-    <pubDate>Wed, 03 Feb 2021 16:29:31 GMT</pubDate>
+    <pubDate>Thu, 04 Feb 2021 10:18:04 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>This is Test for SEO</title>
-      <link>http://yxxshin.github.io/2021/02/03/2021-02-03-Test/</link>
-      <guid>http://yxxshin.github.io/2021/02/03/2021-02-03-Test/</guid>
+      <title>SEO 문제 해결 (진행중)</title>
+      <link>http://yxxshin.github.io/2021/02/03/2021-02-03-SEO-Test/</link>
+      <guid>http://yxxshin.github.io/2021/02/03/2021-02-03-SEO-Test/</guid>
       <pubDate>Wed, 03 Feb 2021 06:00:00 GMT</pubDate>
       
       <description>description</description>
       
       
       
-      <content:encoded><![CDATA[<h3 id="This-is-Test-Page-for-SEO"><a href="#This-is-Test-Page-for-SEO" class="headerlink" title="This is Test Page for SEO"></a>This is Test Page for SEO</h3><h5 id="얼른-고치고-싶당"><a href="#얼른-고치고-싶당" class="headerlink" title="얼른 고치고 싶당.."></a>얼른 고치고 싶당..</h5><h6 id="저에게-도움을-주시와요…"><a href="#저에게-도움을-주시와요…" class="headerlink" title="저에게 도움을 주시와요…"></a>저에게 도움을 주시와요…</h6><p>2021.02.04. </p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>SEO (Search Engine Optimization) 문제 해결을 위한 글입니다.</p><h2 id="2021-02-02"><a href="#2021-02-02" class="headerlink" title="2021.02.02."></a>2021.02.02.</h2><p><code>hexo-generator-seo-friendly-sitemap</code> 을 이용하여 <code>sitemap.xml</code> 과 <code>rss2.xml</code> 을 자동 생성/갱신하고, 이를 Google Search Console에 올려둠.<br><a href="http://yxxshin.github.io/sitemap.xml">블로그 Sitemap 확인</a></p><h2 id="2021-02-03"><a href="#2021-02-03" class="headerlink" title="2021.02.03."></a>2021.02.03.</h2><p>구글에 검색을 하면 본 블로그가 뜬다는 것을 확인함</p><ul><li><code>site</code> 옵션 사용 (site:yxxshin.github.io)</li><li>특정 검색어 입력 (Baekjoon 9184 등)</li></ul><p>그러나, 다음의 문제들이 발견됨</p><h2 id="발생한-SEO-문제들"><a href="#발생한-SEO-문제들" class="headerlink" title="발생한 SEO 문제들"></a>발생한 SEO 문제들</h2><h3 id="일부-검색-결과의-블로그-제목-뒤에-Baekjoon-9184-신나는-함수-실행-이-붙어서-나옴"><a href="#일부-검색-결과의-블로그-제목-뒤에-Baekjoon-9184-신나는-함수-실행-이-붙어서-나옴" class="headerlink" title="일부 검색 결과의 블로그 제목 뒤에 Baekjoon 9184 (신나는 함수 실행)이 붙어서 나옴"></a><strong>일부 검색 결과의 블로그 제목 뒤에 Baekjoon 9184 (신나는 함수 실행)이 붙어서 나옴</strong></h3><p><img src="https://imgur.com/TThXsOh.png" alt="블로그 제목 오류 문제"></p><ul><li>해결해야 할 문제 1순위. 그러나 왜 나타나는지, 나타나는 기준이 뭔지 5시간 뒤졌는데 찾지 못함.</li><li>[02/03 23:40] Baekjoon Cover와 Thumbnail이 Rendering 될 때 <code>&lt;img alt = &quot;Baekjoon 9184 (신나는 함수 실행)&quot;&gt;</code> 으로 들어가는 것을 확인함. 여기서 발생한 문제일까?<ul><li>예전 게시물들 중에서도 이 문제가 발생하므로, 만약 이게 맞다면 RECENTS의 Thumbnail에서 발생한 문제</li><li>그럼 뜨고 안뜨고의 기준은? Sitemap.xml의 구글봇 업데이트 날짜 기준인가?</li><li>[02/04 19:00] 찾아보니까 아님 섞여있음. 안 뜨는 게시물들이 평균 02/01 20:10 경에 업로드 되었다(저장된 페이지의 날짜)는 점이 억지로 찾아낸 공통점인데 말도 안 된다. 뭔 차이가 있는걸까. 그나저나 다음 업데이트는 도대체 언제 되는것인가</li></ul></li><li>[02/03 02:00] Sitemap.xml 파일의 자동 갱신/업로드는 매우 잘 이루어지고 있었음. 다만 이 결과가 구글 검색창에 반영되기까지는 최소 하루 정도의 시간이 필요한 것 같음 (Google Bot이 다녀와야 하기 때문 - <code>robots.txt</code> 관련)</li><li>[02/04 17:00] 블로그 기본 주소의 이름이 다음과 같이 뜨는 것을 발견.<br><img src="https://imgur.com/6NjF5Pi.png" alt="기본 블로그 제목 오류"></li></ul><h3 id="Baekjoon-문제-풀이의-미리보기에서-1-2-3-4-의-숫자만-보이는-경우가-존재"><a href="#Baekjoon-문제-풀이의-미리보기에서-1-2-3-4-의-숫자만-보이는-경우가-존재" class="headerlink" title="Baekjoon 문제 풀이의 미리보기에서 1 2 3 4 .. 의 숫자만 보이는 경우가 존재"></a><strong>Baekjoon 문제 풀이의 미리보기에서 1 2 3 4 .. 의 숫자만 보이는 경우가 존재</strong></h3><p><img src="https://imgur.com/GWq45RH.png" alt="문제 풀이 미리보기 오류"></p><ul><li>내가 봐도 눌러서 들어오고 싶지 않다는 느낌이 든다. 고쳐야 하는 문제.</li><li>[02/03 01:20] 숫자가 필자 코드의 줄 번호 임을 확인함. 어떤 기준으로 뜨고 안뜨는지는 모르겠음.</li><li>[02/04 16:00] 우선 모든 Baekjoon 글의 앞 부분에 공통적으로 두 줄의 문장을 추가함. (미리보기 개선 + “백준 0000”으로 검색했을 때에도 내 블로그를 띄우기 위함). Deploy는 해 놓았지만 아직 구글 서버에 적용은 되지 않은 상황</li></ul><h2 id="2021-02-04"><a href="#2021-02-04" class="headerlink" title="2021.02.04."></a>2021.02.04.</h2><p>Google Search Console에서 정상적인 통계를 내기 위해서는 아직 조금 더 기다려야 하는 것 같다. <del>도대체 언제까지 ㅋㅋ 하</del><br><img src="https://imgur.com/nd91dDO.png" alt="Google Search Console"></p>]]></content:encoded>
       
       
       <category domain="http://yxxshin.github.io/categories/manual/">manual</category>
       
       
+      <category domain="http://yxxshin.github.io/tags/SEO/">SEO</category>
       
-      <comments>http://yxxshin.github.io/2021/02/03/2021-02-03-Test/#disqus_thread</comments>
+      
+      <comments>http://yxxshin.github.io/2021/02/03/2021-02-03-SEO-Test/#disqus_thread</comments>
       
     </item>
     
