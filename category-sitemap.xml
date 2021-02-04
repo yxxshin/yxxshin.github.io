@@ -9,29 +9,36 @@
 
 
     <url>
-        <loc>http://yxxshin.github.io/categories/manual/</loc>
-        <lastmod>2021-02-04T10:28:20.828Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://yxxshin.github.io/categories/Algorithm/Baekjoon/</loc>
-        <lastmod>2021-02-03T16:27:53.922Z</lastmod>
+        <lastmod>2021-02-04T10:39:10.741Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://yxxshin.github.io/categories/Algorithm/</loc>
-        <lastmod>2021-02-03T16:27:53.922Z</lastmod>
+        <lastmod>2021-02-04T10:39:10.741Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/categories/Manual/</loc>
+        <lastmod>2021-02-04T10:35:43.609Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://yxxshin.github.io/categories/Algorithm/APSS/</loc>
-        <lastmod>2021-02-03T09:44:20.156Z</lastmod>
+        <lastmod>2021-02-04T10:34:46.027Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/categories/manual/</loc>
+        <lastmod>2021-02-04T10:33:16.617Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -60,13 +67,6 @@
     <url>
         <loc>http://yxxshin.github.io/categories/Study/Others/</loc>
         <lastmod>2021-01-31T22:32:46.364Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/categories/Manual/</loc>
-        <lastmod>2021-01-31T22:31:51.933Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
