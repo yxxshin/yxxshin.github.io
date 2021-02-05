@@ -9,6 +9,13 @@
 
 
     <url>
+        <loc>http://yxxshin.github.io/categories/manual/</loc>
+        <lastmod>2021-02-05T10:41:20.056Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://yxxshin.github.io/categories/Algorithm/Baekjoon/</loc>
         <lastmod>2021-02-05T10:37:36.059Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -18,13 +25,6 @@
     <url>
         <loc>http://yxxshin.github.io/categories/Algorithm/</loc>
         <lastmod>2021-02-05T10:37:36.059Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/categories/manual/</loc>
-        <lastmod>2021-02-05T10:36:29.192Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
