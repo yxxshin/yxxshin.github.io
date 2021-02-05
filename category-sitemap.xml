@@ -9,8 +9,15 @@
 
 
     <url>
-        <loc>http://yxxshin.github.io/categories/APSS/</loc>
-        <lastmod>2021-02-05T17:43:51.554Z</lastmod>
+        <loc>http://yxxshin.github.io/categories/Algorithm/APSS/</loc>
+        <lastmod>2021-02-05T17:46:45.526Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/categories/Algorithm/</loc>
+        <lastmod>2021-02-05T17:46:45.526Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -30,22 +37,8 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/categories/Algorithm/</loc>
-        <lastmod>2021-02-05T10:37:36.059Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://yxxshin.github.io/categories/Manual/</loc>
         <lastmod>2021-02-04T10:35:43.609Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/categories/Algorithm/APSS/</loc>
-        <lastmod>2021-02-04T10:34:46.027Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
