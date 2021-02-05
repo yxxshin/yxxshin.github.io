@@ -3,6 +3,20 @@
 
 
     <url>
+        <loc>http://yxxshin.github.io/tags/dp/</loc>
+        <lastmod>2021-02-05T10:37:36.059Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/tags/SEO/</loc>
+        <lastmod>2021-02-05T10:36:29.192Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://yxxshin.github.io/tags/sorting/</loc>
         <lastmod>2021-02-04T10:39:10.741Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -12,13 +26,6 @@
     <url>
         <loc>http://yxxshin.github.io/tags/backtracking/</loc>
         <lastmod>2021-02-04T10:38:57.676Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/tags/dp/</loc>
-        <lastmod>2021-02-04T10:38:28.438Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -89,13 +96,6 @@
     <url>
         <loc>http://yxxshin.github.io/tags/manual/</loc>
         <lastmod>2021-02-04T10:35:43.609Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/tags/SEO/</loc>
-        <lastmod>2021-02-04T10:33:16.617Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

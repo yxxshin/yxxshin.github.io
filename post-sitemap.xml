@@ -9,6 +9,22 @@
 
 
     <url>
+        <loc>http://yxxshin.github.io/2021/01/29/2021-01-29-Baekjoon-9184/</loc>
+        <lastmod>2021-02-05T10:37:36.059Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/2021/02/03/2021-02-03-SEO-Test/</loc>
+        <lastmod>2021-02-05T10:36:29.192Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yxxshin.github.io/2020/03/13/2020-03-13-Baekjoon-2751/</loc>
         <lastmod>2021-02-04T10:39:10.741Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -353,14 +369,6 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2021/02/03/2021-02-03-SEO-Test/</loc>
-        <lastmod>2021-02-04T10:33:16.617Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://yxxshin.github.io/2020/10/31/2020-10-31-Server-3rd/</loc>
         <lastmod>2021-01-31T22:33:34.453Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -385,7 +393,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/11/07/2020-11-07-Server-4th/</loc>
+        <loc>http://yxxshin.github.io/2020/11/21/2020-11-21-Server-6th/</loc>
         <lastmod>2021-01-31T22:33:34.368Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -401,7 +409,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/11/21/2020-11-21-Server-6th/</loc>
+        <loc>http://yxxshin.github.io/2020/11/07/2020-11-07-Server-4th/</loc>
         <lastmod>2021-01-31T22:33:34.368Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
