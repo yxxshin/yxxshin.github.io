@@ -3,6 +3,13 @@
 
 
     <url>
+        <loc>http://yxxshin.github.io/tags/SEO/</loc>
+        <lastmod>2021-02-11T16:13:08.459Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://yxxshin.github.io/tags/stack/</loc>
         <lastmod>2021-02-11T15:55:57.507Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -12,13 +19,6 @@
     <url>
         <loc>http://yxxshin.github.io/tags/greedy/</loc>
         <lastmod>2021-02-11T04:28:55.403Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/tags/SEO/</loc>
-        <lastmod>2021-02-06T17:30:27.634Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
