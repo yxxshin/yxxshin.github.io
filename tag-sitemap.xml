@@ -3,6 +3,13 @@
 
 
     <url>
+        <loc>http://yxxshin.github.io/tags/greedy/</loc>
+        <lastmod>2021-02-11T04:28:55.403Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://yxxshin.github.io/tags/SEO/</loc>
         <lastmod>2021-02-06T17:30:27.634Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -26,13 +33,6 @@
     <url>
         <loc>http://yxxshin.github.io/tags/backtracking/</loc>
         <lastmod>2021-02-04T10:38:57.676Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/tags/greedy/</loc>
-        <lastmod>2021-02-04T10:38:16.672Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

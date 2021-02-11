@@ -9,8 +9,33 @@
     <atom:link href="http://yxxshin.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>신연상의 블로그</description>
-    <pubDate>Fri, 05 Feb 2021 17:46:45 GMT</pubDate>
+    <pubDate>Thu, 11 Feb 2021 04:28:55 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Baekjoon 13305 (주유소)</title>
+      <link>http://yxxshin.github.io/2021/02/09/2021-02-09-Baekjoon-13305/</link>
+      <guid>http://yxxshin.github.io/2021/02/09/2021-02-09-Baekjoon-13305/</guid>
+      <pubDate>Tue, 09 Feb 2021 06:00:00 GMT</pubDate>
+      
+      <description>신연상의 블로그 - AFAIK</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>Baekjoon 13305, 백준 13305 문제의 본인 풀이입니다!<br>문제는 아래의 링크에서 확인할 수 있습니다.<br><a href="acmicpc.net/problem/13305">문제보기</a></p><a id="more"></a><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAX_N 100000</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> N, road[MAX_N+<span class="number">3</span>], gas[MAX_N+<span class="number">3</span>];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">// Initialization: save inputs</span></span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;N);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; N<span class="number">-1</span>; i++) &#123;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;road[i]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; N; i++) &#123;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>, &amp;gas[i]);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">long</span> <span class="keyword">long</span> totalMoney = <span class="number">0</span>;     <span class="comment">// total money</span></span><br><span class="line">    <span class="keyword">int</span> gasVal = gas[<span class="number">0</span>];   <span class="comment">// lowest gas value until now (Greedy Algorithm)</span></span><br><span class="line">    <span class="keyword">int</span> roadNum = <span class="number">0</span>;       <span class="comment">// road number (0 to N-1)</span></span><br><span class="line">    <span class="keyword">while</span>(<span class="literal">true</span>) &#123;</span><br><span class="line">        totalMoney += (<span class="keyword">long</span> <span class="keyword">long</span>)gasVal * road[roadNum];</span><br><span class="line">        roadNum++;</span><br><span class="line">        <span class="keyword">if</span>(gas[roadNum] &lt; gasVal) &#123;</span><br><span class="line">            <span class="comment">// Greedy: Use the new gas value from now on</span></span><br><span class="line">            gasVal = gas[roadNum];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(roadNum == N) &#123;</span><br><span class="line">            <span class="comment">// Finish Algorithm</span></span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%lld\n&quot;</span>, totalMoney);</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>본 문제는 그리디 알고리즘 (Greedy Algorithm) 을 사용하는 문제였다.  </p><p>예전부터 언급해왔던 ‘백준 단계별로 풀어보기’의 치명적인 단점은 단계 명에서 어떠한 알고리즘을 사용해야 하는지 친절하게 알려준다는 점이다. 사실상 거대한 힌트를 얻고 들어가는 것이니…<br>본 문제는 자체로 어려운 문제는 아니였고, 그리디 알고리즘을 사용하라는 힌트를 받으면 더 쉬워지는 문제였다. 이 정도라면 힌트 없이도 무난하게 그리디로 풀겠다는 감을 잡을 수 있지 않을까?  </p><p>아이디어는 <em>여태까지 나온 최고 저렴한 기름으로 최대한 많이 이동하는 것</em> 이다. 별 다른 증명 없이 꽤 깔끔하게 이 사실이 받아들여진다.  </p><p>그럼에도 불구하고 세 번이나 틀렸습니다 를 마주했는데, 범인은 <code>int</code>의 자료형 초과였다. 변수에서, 그리고 형변환 시에 <code>unsigned long</code>을 명시해 주니 바로 통과할 수 있었다. <del>롱태식이 오랜만이다!</del></p>]]></content:encoded>
+      
+      
+      <category domain="http://yxxshin.github.io/categories/Algorithm/">Algorithm</category>
+      
+      <category domain="http://yxxshin.github.io/categories/Algorithm/Baekjoon/">Baekjoon</category>
+      
+      
+      <category domain="http://yxxshin.github.io/tags/greedy/">greedy</category>
+      
+      
+      <comments>http://yxxshin.github.io/2021/02/09/2021-02-09-Baekjoon-13305/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>APSS 1. 문제 해결과 프로그래밍 대회</title>
