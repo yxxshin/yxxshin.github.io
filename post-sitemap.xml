@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>http://yxxshin.github.io/2021/02/16/2021-02-16-CP-Tips/</loc>
+        <lastmod>2021-02-15T17:41:19.034Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yxxshin.github.io/2020/03/13/2020-03-13-Baekjoon-2751/</loc>
         <lastmod>2021-02-15T16:14:14.443Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -387,14 +395,6 @@
     <url>
         <loc>http://yxxshin.github.io/2021/02/16/2021-02-16-CodeForces-Manual/</loc>
         <lastmod>2021-02-15T16:10:05.202Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/2021/02/16/2021-02-16-CP-Tips/</loc>
-        <lastmod>2021-02-15T16:03:13.197Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
