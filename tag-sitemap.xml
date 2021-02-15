@@ -3,29 +3,99 @@
 
 
     <url>
-        <loc>http://yxxshin.github.io/tags/CP/</loc>
-        <lastmod>2021-02-15T16:01:24.675Z</lastmod>
+        <loc>http://yxxshin.github.io/tags/binary-search/</loc>
+        <lastmod>2021-02-15T16:14:14.443Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/tags/manual/</loc>
-        <lastmod>2021-02-15T16:01:24.675Z</lastmod>
+        <loc>http://yxxshin.github.io/tags/divide-conquer/</loc>
+        <lastmod>2021-02-15T16:14:14.443Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/tags/dfs-bfs/</loc>
-        <lastmod>2021-02-15T11:28:14.556Z</lastmod>
+        <loc>http://yxxshin.github.io/tags/deque/</loc>
+        <lastmod>2021-02-15T16:14:14.443Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/tags/stack/</loc>
+        <lastmod>2021-02-15T16:14:14.443Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://yxxshin.github.io/tags/dp/</loc>
-        <lastmod>2021-02-15T10:35:14.463Z</lastmod>
+        <lastmod>2021-02-15T16:14:14.443Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/tags/sorting/</loc>
+        <lastmod>2021-02-15T16:14:14.443Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/tags/greedy/</loc>
+        <lastmod>2021-02-15T16:14:14.442Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/tags/asp/</loc>
+        <lastmod>2021-02-15T16:14:14.422Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/tags/ssp/</loc>
+        <lastmod>2021-02-15T16:14:14.422Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/tags/queue/</loc>
+        <lastmod>2021-02-15T16:14:14.422Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/tags/dfs-bfs/</loc>
+        <lastmod>2021-02-15T16:14:13.857Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/tags/backtracking/</loc>
+        <lastmod>2021-02-15T16:14:13.857Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/tags/CP/</loc>
+        <lastmod>2021-02-15T16:10:05.202Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/tags/manual/</loc>
+        <lastmod>2021-02-15T16:10:05.202Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -33,76 +103,6 @@
     <url>
         <loc>http://yxxshin.github.io/tags/SEO/</loc>
         <lastmod>2021-02-11T16:13:08.459Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/tags/stack/</loc>
-        <lastmod>2021-02-11T15:55:57.507Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/tags/greedy/</loc>
-        <lastmod>2021-02-11T04:28:55.403Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/tags/sorting/</loc>
-        <lastmod>2021-02-04T10:39:10.741Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/tags/backtracking/</loc>
-        <lastmod>2021-02-04T10:38:57.676Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/tags/queue/</loc>
-        <lastmod>2021-02-04T10:38:02.680Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/tags/deque/</loc>
-        <lastmod>2021-02-04T10:37:55.094Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/tags/divide-conquer/</loc>
-        <lastmod>2021-02-04T10:37:48.664Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/tags/binary-search/</loc>
-        <lastmod>2021-02-04T10:37:26.125Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/tags/ssp/</loc>
-        <lastmod>2021-02-04T10:36:21.349Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/tags/asp/</loc>
-        <lastmod>2021-02-04T10:36:05.024Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
