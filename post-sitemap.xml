@@ -9,8 +9,24 @@
 
 
     <url>
-        <loc>http://yxxshin.github.io/2021/02/12/2021-02-15-Baekjoon-2629/</loc>
-        <lastmod>2021-02-15T10:31:52.229Z</lastmod>
+        <loc>http://yxxshin.github.io/2021/02/15/2021-02-15-Baekjoon-1707/</loc>
+        <lastmod>2021-02-15T10:53:29.096Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/2021/02/15/2021-02-15-Baekjoon-7562/</loc>
+        <lastmod>2021-02-15T10:51:36.718Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/2021/02/15/2021-02-15-Baekjoon-2629/</loc>
+        <lastmod>2021-02-15T10:35:14.463Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -497,7 +513,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/03/13/2020-03-13-Sorting-Algorithm-O(NlogN)/</loc>
+        <loc>http://yxxshin.github.io/2020/03/20/2020-03-20-Backtracking-Queen-Problem/</loc>
         <lastmod>2021-01-31T22:19:51.464Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -505,7 +521,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/03/20/2020-03-20-Backtracking-Queen-Problem/</loc>
+        <loc>http://yxxshin.github.io/2020/03/13/2020-03-13-Sorting-Algorithm-O(NlogN)/</loc>
         <lastmod>2021-01-31T22:19:51.464Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
