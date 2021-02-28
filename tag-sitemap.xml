@@ -3,15 +3,22 @@
 
 
     <url>
+        <loc>http://yxxshin.github.io/tags/Div2/</loc>
+        <lastmod>2021-02-28T14:48:40.021Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://yxxshin.github.io/tags/CP/</loc>
-        <lastmod>2021-02-28T09:37:09.399Z</lastmod>
+        <lastmod>2021-02-28T14:48:40.021Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://yxxshin.github.io/tags/manual/</loc>
-        <lastmod>2021-02-28T09:37:09.399Z</lastmod>
+        <lastmod>2021-02-28T12:50:42.590Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
