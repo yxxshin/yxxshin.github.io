@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>http://yxxshin.github.io/2023/02/06/2023-02-06-Book4/</loc>
+        <lastmod>2023-02-10T14:29:33.697Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yxxshin.github.io/2023/01/01/2023-01-01-English-LA-Study/</loc>
         <lastmod>2023-02-02T04:46:11.337Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -105,14 +113,6 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2022/08/05/2022-08-05-Backprop-for-a-Linear-Layer/</loc>
-        <lastmod>2022-12-19T08:30:17.578Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://yxxshin.github.io/2022/08/07/2022-08-07-Affine-Layer-Backprop/</loc>
         <lastmod>2022-12-19T08:30:17.578Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -122,6 +122,14 @@
 
     <url>
         <loc>http://yxxshin.github.io/2022/09/13/2022-09-13-Batch-Normalization-Backprop/</loc>
+        <lastmod>2022-12-19T08:30:17.578Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/2022/08/05/2022-08-05-Backprop-for-a-Linear-Layer/</loc>
         <lastmod>2022-12-19T08:30:17.578Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -145,7 +153,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2021/02/09/2021-02-09-Baekjoon-13305/</loc>
+        <loc>http://yxxshin.github.io/2021/02/09/2021-02-09-Baekjoon-17298/</loc>
         <lastmod>2022-12-19T08:30:17.577Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -153,7 +161,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2021/02/09/2021-02-09-Baekjoon-17298/</loc>
+        <loc>http://yxxshin.github.io/2021/02/09/2021-02-09-Baekjoon-13305/</loc>
         <lastmod>2022-12-19T08:30:17.577Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -249,7 +257,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/11/14/2020-11-14-Server-5th/</loc>
+        <loc>http://yxxshin.github.io/2020/11/21/2020-11-21-Server-6th/</loc>
         <lastmod>2022-12-19T08:30:17.576Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -257,7 +265,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/11/21/2020-11-21-Server-6th/</loc>
+        <loc>http://yxxshin.github.io/2020/11/14/2020-11-14-Server-5th/</loc>
         <lastmod>2022-12-19T08:30:17.576Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -305,7 +313,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/09/10/2020-09-10-Baekjoon-2206/</loc>
+        <loc>http://yxxshin.github.io/2020/09/13/2020-09-13-Baekjoon-1753/</loc>
         <lastmod>2022-12-19T08:30:17.575Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -313,7 +321,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/09/13/2020-09-13-Baekjoon-1753/</loc>
+        <loc>http://yxxshin.github.io/2020/09/10/2020-09-10-Baekjoon-2206/</loc>
         <lastmod>2022-12-19T08:30:17.575Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -329,7 +337,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/09/15/2020-09-15-Baekjoon-11657/</loc>
+        <loc>http://yxxshin.github.io/2020/09/15/2020-09-15-Bellman-Ford/</loc>
         <lastmod>2022-12-19T08:30:17.575Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -337,7 +345,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/09/15/2020-09-15-Bellman-Ford/</loc>
+        <loc>http://yxxshin.github.io/2020/09/15/2020-09-15-Baekjoon-11657/</loc>
         <lastmod>2022-12-19T08:30:17.575Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -577,7 +585,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/07/10/2020-07-10-Baekjoon-18258/</loc>
+        <loc>http://yxxshin.github.io/2020/07/10/2020-07-10-Baekjoon-1966/</loc>
         <lastmod>2022-12-19T08:30:17.571Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -585,7 +593,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/07/10/2020-07-10-Baekjoon-1966/</loc>
+        <loc>http://yxxshin.github.io/2020/07/10/2020-07-10-Baekjoon-18258/</loc>
         <lastmod>2022-12-19T08:30:17.571Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -609,7 +617,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/04/18/2020-04-18-Baekjoon-12865/</loc>
+        <loc>http://yxxshin.github.io/2020/04/18/2020-04-18-Baekjoon-9251/</loc>
         <lastmod>2022-12-19T08:30:17.570Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -617,7 +625,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/04/18/2020-04-18-Baekjoon-9251/</loc>
+        <loc>http://yxxshin.github.io/2020/04/18/2020-04-18-Baekjoon-12865/</loc>
         <lastmod>2022-12-19T08:30:17.570Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -689,14 +697,6 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/03/13/2020-03-13-Sorting-Algorithm-O(NlogN)/</loc>
-        <lastmod>2022-12-19T08:30:17.569Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://yxxshin.github.io/2020/03/20/2020-03-20-Backtracking-Queen-Problem/</loc>
         <lastmod>2022-12-19T08:30:17.569Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -705,7 +705,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/03/20/2020-03-20-Baekjoon-9663/</loc>
+        <loc>http://yxxshin.github.io/2020/03/13/2020-03-13-Sorting-Algorithm-O(NlogN)/</loc>
         <lastmod>2022-12-19T08:30:17.569Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -721,23 +721,7 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/03/20/2020-03-20-DFS-BFS/</loc>
-        <lastmod>2022-12-19T08:30:17.569Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/2020/03/23/2020-03-23-Linux-Study/</loc>
-        <lastmod>2022-12-19T08:30:17.569Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yxxshin.github.io/2020/04/04/2020-04-04-Baekjoon-2580/</loc>
+        <loc>http://yxxshin.github.io/2020/03/20/2020-03-20-Baekjoon-9663/</loc>
         <lastmod>2022-12-19T08:30:17.569Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -753,7 +737,23 @@
     </url>
 
     <url>
-        <loc>http://yxxshin.github.io/2020/04/11/2020-04-11-Dynamic-Programming-LCS-Problem/</loc>
+        <loc>http://yxxshin.github.io/2020/03/23/2020-03-23-Linux-Study/</loc>
+        <lastmod>2022-12-19T08:30:17.569Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/2020/03/20/2020-03-20-DFS-BFS/</loc>
+        <lastmod>2022-12-19T08:30:17.569Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/2020/04/04/2020-04-04-Baekjoon-2580/</loc>
         <lastmod>2022-12-19T08:30:17.569Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -762,6 +762,14 @@
 
     <url>
         <loc>http://yxxshin.github.io/2020/04/11/2020-04-11-Dynamic-Programming-Knapsack-Problem/</loc>
+        <lastmod>2022-12-19T08:30:17.569Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yxxshin.github.io/2020/04/11/2020-04-11-Dynamic-Programming-LCS-Problem/</loc>
         <lastmod>2022-12-19T08:30:17.569Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
